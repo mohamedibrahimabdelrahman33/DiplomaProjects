@@ -8,21 +8,21 @@
 
 #include  "Macros.h"
 #include  "Datatype.h"
-#include "DIO_Registers.h"
+#include  "DIO_Registers.h"
 
 
-#define Input      0
-#define Output  1
-#define High 1
-#define Low  0
-#define  Register_Size    8
+#define Input      					 0
+#define Output  					 1
+#define High 							 1
+#define Low  							 0
+#define  Register_Size   	 8
 
 
 
 
 void DIO_SetPinDirection( u8 Port_Number, u8 Pin_Number, u8 Direction)
 {
-	volatile  u8  *arr[4] = { &DDRA,&DDRB,&DDRC,&DDRD};
+	volatile  u8  *arr[4] = { &DDRA, &DDRB, &DDRC, &DDRD};
 
 	if(Port_Number <= 3)
 	{
@@ -41,7 +41,7 @@ void DIO_SetPinDirection( u8 Port_Number, u8 Pin_Number, u8 Direction)
 
 	else
 	{
-
+		//*Do Nothing*//
 	}
 
 }
@@ -70,7 +70,7 @@ void DIO_SetPinValue( u8 Port_Number, u8 Pin_Number, u8 Value)
 
 	else
 	{
-
+		//*Do Nothing*//
 	}
 
 }
@@ -90,7 +90,7 @@ u8  DIO_GetPinValue( u8 Port_Number, u8 Pin_Number)
 
 	else
 	{
-
+		//*Do Nothing*//
 	}
 
 	return Return_Value ;
@@ -121,7 +121,7 @@ void DIO_SetPortDirection( u8 Port_Number,  u8 Direction)
 
 	else
 	{
-
+		//*Do Nothing*//
 	}
 
 }
@@ -140,7 +140,7 @@ void DIO_SetPortValue( u8 Port_Number, u8 Value)
 
 	else
 	{
-
+		//*Do Nothing*//
 	}
 
 }
@@ -161,7 +161,7 @@ u8  DIO_GetPortValue( u8 Port_Number)
 
 	else
 	{
-
+		//*Do Nothing*//
 	}
 
 	return Return_Value;
@@ -195,7 +195,7 @@ void DIO_SetPinsDirection( u8 Pin_Number, u8 Direction)
 
 	else
 	{
-
+		//*Do Nothing*//
 	}
 
 }
@@ -231,7 +231,7 @@ void DIO_SetPinsValue( u8 Pin_Number, u8 Value)
 
 	else
 	{
-/*DoNothing*/
+		//*Do Nothing*//
 	}
 
 }
@@ -260,7 +260,7 @@ u8  DIO_GetPinsValue( u8 Pin_Number)
 
 	else
 	{
-
+		//*Do Nothing*//
 	}
 
 	return Return_Value ;
