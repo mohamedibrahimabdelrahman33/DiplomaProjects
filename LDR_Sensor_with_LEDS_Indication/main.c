@@ -32,8 +32,7 @@ int main(void)
 	{
 		switch((Current_Value / 146) )
 		{
-		case 7
-		:
+		case 7:
 			Leds_On(0x01);
 			break;
 		case 6:
