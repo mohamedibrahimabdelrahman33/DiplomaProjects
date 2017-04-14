@@ -5,8 +5,8 @@
  *      Author: Mohamed
  */
 
-#ifndef TIMER_COUNTER_DRIVER_H_
-#define TIMER_COUNTER_DRIVER_H_
+#ifndef TIMER0_DRIVER_H_
+#define TIMER0_DRIVER_H_
 
 #include "Datatype.h"
 
@@ -18,4 +18,4 @@ void Clear_IntFlag(void);
 
 
 
-#endif /* TIMER_COUNTER_DRIVER_H_ */
+#endif /* TIMER0_DRIVER_H_ */

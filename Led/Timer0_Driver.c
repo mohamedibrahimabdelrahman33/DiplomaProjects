@@ -9,9 +9,9 @@
 #define F_CPU 16000000ul
 #include "Datatype.h"
 #include  "Macros.h"
-#include  "Timer_Counter_Register.h"
+#include  "Timer_Registers.h"
 #include  "Interrupt_Registers.h"
-#include  "Timer_Counter_Cfg.h"
+#include  "Timer0_Cfg.h"
 
 
 void Timer0_Init(void)

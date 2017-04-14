@@ -5,8 +5,8 @@
  *      Author: Mohamed
  */
 
-#ifndef TIMER_COUNTER_CFG_H_
-#define TIMER_COUNTER_CFG_H_
+#ifndef TIMER0_CFG_H_
+#define TIMER0_CFG_H_
 
 
 // TIMER0_MODE
@@ -51,4 +51,4 @@
 
 
 
-#endif /* TIMER_COUNTER_CFG_H_ */
+#endif /* TIMER0_CFG_H_ */
