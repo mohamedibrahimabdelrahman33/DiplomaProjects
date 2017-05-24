@@ -17,8 +17,8 @@
 #define INVERTING_CHANNELA					0b11000000
 //*Compare Output Mode for Channel B IN FAST PWM MODE*//
 #define DIS_CON_CHANNELB							0b00000000
-#define NONINVERTING_CHANNELB		0b00100000
-#define INVERTING_CHANNELB					0b00110000
+#define NONINVERTING_CHANNELB		0b00100000 //*Starts from high to low*//
+#define INVERTING_CHANNELB					0b00110000 //*Starts from low to high *//
 //*Waveform Generation Mode for FAST PWM MODE *//
 #define ICR1_TOP														0b00000010
 #define OCR1A_TOP 												0b00000011
